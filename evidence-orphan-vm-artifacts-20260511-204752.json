@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAtUtc": "2026-05-11T18:47:52.8734032Z",
+  "subscriptionId": "f4fffd09-0453-4c25-a82b-6b10de7b50fe",
+  "policyAssignment": "attest-orphan-vm-artifacts",
+  "control": "Zero orphan VM artifacts (managed disks, NICs, public IPs)",
+  "owner": "jhonathan.carrillo.higuera@student.howest.be",
+  "summary": {
+    "liveVmCount": 0,
+    "orphanDiskCount": 1,
+    "orphanNicCount": 1,
+    "orphanPipCount": 0,
+    "totalOrphanCount": 2,
+    "complianceState": "NonCompliant"
+  },
+  "orphans": {
+    "disks": [
+      {
+        "type": "Microsoft.Compute/disks",
+        "name": "DummyVM_OsDisk_1_52477af0fde84cb8ac514652263e0d3f",
+        "location": "swedencentral",
+        "sizeGB": 30,
+        "skuName": "StandardSSD_LRS",
+        "id": "/subscriptions/f4fffd09-0453-4c25-a82b-6b10de7b50fe/resourceGroups/RG-THESIS/providers/Microsoft.Compute/disks/DummyVM_OsDisk_1_52477af0fde84cb8ac514652263e0d3f"
+      }
+    ],
+    "nics": [
+      {
+        "type": "Microsoft.Network/networkInterfaces",
+        "name": "dummyvm84",
+        "location": "swedencentral",
+        "id": "/subscriptions/f4fffd09-0453-4c25-a82b-6b10de7b50fe/resourceGroups/RG-Thesis/providers/Microsoft.Network/networkInterfaces/dummyvm84"
+      }
+    ],
+    "publicIps": []
+  }
+}
