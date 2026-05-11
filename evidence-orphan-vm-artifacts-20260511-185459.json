@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAtUtc": "2026-05-11T16:54:59.3655297Z",
+  "subscriptionId": "f4fffd09-0453-4c25-a82b-6b10de7b50fe",
+  "policyAssignment": "attest-orphan-vm-artifacts",
+  "control": "Zero orphan VM artifacts (managed disks, NICs, public IPs)",
+  "owner": "jhonathan.carrillo.higuera@student.howest.be",
+  "summary": {
+    "liveVmCount": 0,
+    "orphanDiskCount": 0,
+    "orphanNicCount": 0,
+    "orphanPipCount": 0,
+    "totalOrphanCount": 0,
+    "complianceState": "Compliant"
+  },
+  "orphans": {
+    "disks": [],
+    "nics": [],
+    "publicIps": []
+  }
+}
